@@ -1,8 +1,9 @@
 deploy:
   provider: gcs
-  access_key_id: GCS_ACCESS_KEY_ID
-  secret_access_key: GCS_SECRET_ACCESS_KEY
-  bucket: "www.puppets.life"
-  skip_cleanup: true
-  acl: public-read
+  access_key_id: GOOGBUACUOU73TB7FHLZ
+  secret_access_key:
+    secure: ki81bLOogAtCU1UZhgvc+H33q8+my96xmaJsCbmnsxSnGtYDdEDjDuyfvCKO7EJ6uQNeHhG7/hHguYcPB8f/L/HuKjbXmhGOA6fQ4GjaEEaa3mA5Z2GN9lhl4fgvgv/kS13dTBpgs0yD/AVNP8PqWs8cCLvijFNXMz86hVAJNkHoDOxeUn9tmQPD70KeqTukz8hN2y/YMQjc0yNDcm4fdfcWdE/KP6ud6ZSsdn4PgHN3YRhLPwMaI7DgBScBKK5hsU+okq/wurVLsDDXtVd4QssgMJQEp39tB0hCGemetzNE8h7iuk7dizhsrMqhTMsNSOfeRhzFd4xSIFEwjaUUylMm4dhbg7QNUcIrvD8/JnIzZqLRV0XjxeSj+HPPdBE97nXvSrYUXZZvRKYur8YMIf7qUsDORjwJYilquzZM5NzXJn0r9j7iFRyN1mOaXkgQ7LyAYHRDVsYPd2Q8DQ/1HlQ4GKjfZqRN1W1mppIrL0t9d4xDNCMxQL7ZM9OMJcYG2BUYbIN1LN9JX6SqbEZYmwzvWGxgKFjF6++tBcOGoD/mvJB9RheI5+Qwe9ZxRCcmoqJlNNNWa815aMLIdVJZrOIUKqvNQs4fPwyzvZPbJxBsYCnQFEJz8S2Za0Jg0Htq1qjPR4+qjDVg+av2uPaoppSwAbb13Rl8dM+Y6C5VX5o=
+  bucket: www.puppets.life
   local-dir: public
+  on:
+    repo: AquiGorka/www.puppets.life
