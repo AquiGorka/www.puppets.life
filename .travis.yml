@@ -6,6 +6,7 @@ deploy:
   bucket: www.puppets.life
   local-dir: public
   overwrite: true
+  acl: public-read
   skip_cleanup: true
   on:
     repo: AquiGorka/www.puppets.life
