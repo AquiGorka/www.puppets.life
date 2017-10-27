@@ -1,9 +1,11 @@
+language: node_js
 deploy:
   provider: gcs
   access_key_id: GOOGLE_ACCESS_KEY_ID
   secret_access_key: GOOGLE_SECRET_ACCESS_KEY
   bucket: www.puppets.life
   local-dir: public
+  overwrite: true
   on:
     repo: AquiGorka/www.puppets.life
     branch: master
