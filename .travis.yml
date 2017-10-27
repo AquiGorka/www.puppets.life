@@ -1,8 +1,9 @@
 language: node_js
 deploy:
   provider: gcs
-  access_key_id: GOOGLE_ACCESS_KEY_ID
-  secret_access_key: GOOGLE_SECRET_ACCESS_KEY
+  access_key_id: GOOGOXTPJ2JM4WHPFQXO
+  secret_access_key:
+    secure: OCjWtYpaAIESHlreRdFW0Urba5EXSBqKB20IQWWNQvaNiV+PIjqWJ5YIUE4vNnGpcvG+7WUNnqLtU67hsMafz5crFQD8hXLSjSiD15Ksun1+0bmKiMfNabb+P8wJ6ta133ebXMZvrEu9GIlRblCptXpOOq9S32bIJ9pf/Z7COLkrn7+xpaFfgzQ2Rl2KlOvpepHRC2STHufszJG9DkZI6aKj++dJ2f+mWDC8SyoF4UQaLgya2tKl8oFBOFa7/rGNdjGjNv1QYDCBCsCQpfm24+U6+w7fx/FtkgiM1Ijem3ib7vsqf4LRkWxcT4ixMgDqw0xFWVuDOiKgh7/WXvf0NfeRuqT35aYbdeqjN3I6y0Mp6KMhjxr9Qr/CFTZDu1CnOMpx/ON6BL5kI5LyYeausHu6+utyvzcum0k69bENlmcHUBqB5Tcg0K2rx4DJQ9LTR7cG8Oqr4phiVUWNPsteAGBYnCqi1mvCuwHe/OMwyGWX+reuPlXe+Mh64rU1jpRAOmwCq/2jBAoCkGbFlMHurrQrqfcc2efBKs49ujyCNoiMrBONt9AN3q8CpBI1JWhzq8L+PWrMAGm5wtNDMDfaFEwONxdcbfMsxfuhozVu0Bh1WK5wDqhTbo8xBxLp1FooxlxOb6bD5S+uhLYYkr2nreZeAurMoxKhgsrcPVxuaWg=
   bucket: www.puppets.life
   local-dir: public
   overwrite: true
